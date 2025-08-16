@@ -4,17 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>تواصل - Al-Minshaw Shop</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-
     <header class="navbar">
         <div class="container wrap">
             <a class="brand" href="index.html">
-                <img src="assets/icons/ams-logo.png" alt="Logo"> Al-Minshaw Shop
+                <img src="assets/icons/ams-logo.PNG" alt="Logo"> Al-Minshaw Shop
             </a>
             <label for="menu-toggle" class="burger"><span></span></label>
             <input type="checkbox" id="menu-toggle" />
@@ -29,46 +25,20 @@
 
     <main class="container">
         <div class="section-head"><h2>تواصل معنا</h2><p>نسعد برسالتك — نرد خلال 24 ساعة</p></div>
-
-        <div class="split">
-            <form class="form" onsubmit="event.preventDefault(); alert('شكرًا! تم استلام رسالتك.');">
-                <div class="row">
-                    <div><label for="name">الاسم</label><input id="name" name="name" type="text" placeholder="اسمك الكامل" required /></div>
-                    <div><label for="email">البريد الإلكتروني</label><input id="email" name="email" type="email" placeholder="you@example.com" required /></div>
-                </div>
-                <label for="subject">الموضوع</label><input id="subject" name="subject" type="text" placeholder="موضوع الرسالة" required />
-                <label for="message">الرسالة</label><textarea id="message" name="message" placeholder="اكتب رسالتك هنا..." required></textarea>
-                <button class="btn btn-primary" type="submit">إرسال الرسالة</button>
-            </form>
-
-            <aside class="card">
-                <div class="body">
-                    <h3 class="m-0">معلومات التواصل</h3>
-                    <p class="lead">مباشرة عبر البريد أو الاتصال الهاتفي.</p>
-                    <div class="mt-16" style="display:grid;gap:10px">
-                        <div class="kpi card" style="padding:12px"><strong>البريد</strong><br><a href="mailto:youssif2371@gmail.com">youssif2371@gmail.com</a></div>
-                        <div class="kpi card" style="padding:12px"><strong>الهاتف</strong><br><a href="tel:+201554338151">+201554338151</a></div>
-                        <div class="kpi card" style="padding:12px"><strong>الساعات</strong><br>يوميًا 9ص - 9م</div>
-                    </div>
-                </div>
-            </aside>
-        </div>
+        <!-- النموذج كما هو دون صور -->
+        <form class="form" onsubmit="event.preventDefault(); alert('شكرًا! تم استلام رسالتك.');">
+            <div class="row">
+                <div><label for="name">الاسم</label><input id="name" name="name" type="text" placeholder="اسمك الكامل" required /></div>
+                <div><label for="email">البريد الإلكتروني</label><input id="email" name="email" type="email" placeholder="you@example.com" required /></div>
+            </div>
+            <label for="subject">الموضوع</label><input id="subject" name="subject" type="text" placeholder="موضوع الرسالة" required />
+            <label for="message">الرسالة</label><textarea id="message" name="message" placeholder="اكتب رسالتك هنا..." required></textarea>
+            <button class="btn btn-primary" type="submit">إرسال الرسالة</button>
+        </form>
     </main>
 
     <footer>
-        <div class="container footer-grid">
-            <div>
-                <h4>
-                    <img src="assets/icons/ams-logo.png" alt="Logo" style="width:20px;height:20px;border-radius:5px;vertical-align:middle;margin-left:6px;">
-                    Al-Minshaw Shop
-                </h4>
-                <p>وجهتك للأطعمة والمشروبات المختارة بعناية.</p>
-            </div>
-            <div><h4>التواصل</h4><p>📧 <a href="mailto:youssif2371@gmail.com">youssif2371@gmail.com</a><br>📞 <a href="tel:+201554338151">+201554338151</a></p></div>
-            <div><h4>روابط</h4><p><a href="products.html">المنتجات</a><br><a href="about.html">من نحن</a></p></div>
-        </div>
         <div class="container footer-small">© 2025 Al-Minshaw Shop — جميع الحقوق محفوظة.</div>
     </footer>
-
 </body>
 </html>
