@@ -1,8 +1,4 @@
-﻿/* ===============================
-   Al-Minshaw Shop — Global Styles
-   Mobile-first, RTL, Responsive
-   =============================== */
-
+﻿/* === Al-Minshaw Shop — RTL, Mobile-first, Responsive === */
 :root {
     --bg: #0f0f10;
     --panel: #121418;
@@ -11,11 +7,10 @@
     --brand: #ff8c42;
     --brand-2: #ffc857;
     --line: #21242a;
-    --soft: #171a1f;
     --radius: 14px;
     --radius-lg: 18px;
-    --shadow: 0 10px 30px rgba(0,0,0,.25);
     --maxw: 1150px;
+    --shadow: 0 10px 30px rgba(0,0,0,.25);
 }
 
 * {
@@ -28,7 +23,6 @@ html {
 
 html, body {
     margin: 0;
-    padding: 0;
     background: var(--bg);
     color: var(--text);
     font-family: 'Cairo',system-ui,sans-serif;
@@ -52,7 +46,7 @@ a {
     padding-inline: 16px
 }
 
-/* UTILS */
+/* Utils */
 .mt-16 {
     margin-top: 16px
 }
@@ -103,7 +97,7 @@ a {
     transform: translateY(-1px)
 }
 
-/* NAVBAR (mobile-first) */
+/* NAVBAR */
 .navbar {
     position: sticky;
     top: 0;
@@ -127,14 +121,12 @@ a {
     font-weight: 800
 }
 
-    .brand .logo {
-        width: 28px;
-        height: 28px;
-        border-radius: 8px;
-        background: linear-gradient(135deg,var(--brand),var(--brand-2));
-        box-shadow: 0 6px 18px rgba(255,140,66,.35)
+    .brand img {
+        width: 32px;
+        height: 32px;
+        border-radius: 8px
     }
-/* burger */
+
 #menu-toggle {
     display: none
 }
@@ -212,7 +204,7 @@ a {
     }
 }
 
-/* SECTION HEAD */
+/* Section head */
 .section-head {
     display: flex;
     align-items: flex-end;
@@ -237,7 +229,7 @@ a {
     }
 }
 
-/* HERO */
+/* Hero */
 .hero {
     display: grid;
     gap: 16px;
@@ -315,7 +307,7 @@ h1 {
     }
 }
 
-/* GRID + CARDS */
+/* Grid + Cards */
 .grid {
     display: grid;
     gap: 14px
@@ -389,7 +381,7 @@ h1 {
     align-items: center
 }
 
-/* SPLIT (about + contact) */
+/* Split (about + contact) */
 .split {
     display: grid;
     gap: 16px
@@ -401,7 +393,7 @@ h1 {
     }
 }
 
-/* FORM */
+/* Form */
 .form {
     background: var(--panel);
     border: 1px solid var(--line);
@@ -444,7 +436,7 @@ h1 {
     margin-top: 10px
 }
 
-/* BANNER */
+/* Banner */
 .banner-img {
     width: 100%;
     height: auto;
@@ -459,7 +451,7 @@ h1 {
     }
 }
 
-/* FOOTER */
+/* Footer */
 footer {
     margin-top: 36px;
     border-top: 1px solid var(--line);

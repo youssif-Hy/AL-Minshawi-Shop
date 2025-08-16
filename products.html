@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>تواصل - Al-Minshaw Shop</title>
+    <title>المنتجات - Al-Minshaw Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -11,27 +14,21 @@
     <header class="navbar">
         <div class="container wrap">
             <a class="brand" href="index.html">
-                <img src="assets/icons/ams-logo.png" alt="Al-Minshaw Shop Logo" style="width:32px;height:32px;border-radius:8px;">
-                Al-Minshaw Shop
+                <img src="assets/icons/ams-logo.png" alt="Logo"> Al-Minshaw Shop
             </a>
             <label for="menu-toggle" class="burger"><span></span></label>
             <input type="checkbox" id="menu-toggle" />
             <nav class="nav">
                 <a href="index.html">الرئيسية</a>
-                <a href="products.html">المنتجات</a>
+                <a class="active" href="products.html">المنتجات</a>
                 <a href="about.html">من نحن</a>
-                <a class="active" href="contact.html">تواصل</a>
+                <a href="contact.html">تواصل</a>
             </nav>
         </div>
     </header>
 
     <main class="container">
-
-        <!-- روابط سريعة -->
-        <div class="section-head">
-            <h2>جميع المنتجات</h2>
-            <p>اختر فئة للانتقال السريع</p>
-        </div>
+        <div class="section-head"><h2>جميع المنتجات</h2><p>اختر فئة للانتقال السريع</p></div>
         <p class="m-0" style="margin-bottom:14px">
             <a href="#coffee" class="tag">قهوة</a>
             <a href="#milkshakes" class="tag">مشروبات مثلّجة</a>
@@ -40,7 +37,7 @@
             <a href="#breakfast" class="tag">فطور</a>
         </p>
 
-        <!-- قهوة -->
+        <!-- Coffee -->
         <section id="coffee" class="mt-32">
             <div class="section-head"><h2>قهوة</h2><p>مختارات القهوة الساخنة والباردة</p></div>
             <div class="grid products">
@@ -51,7 +48,7 @@
             </div>
         </section>
 
-        <!-- مشروبات مثلّجة (ميلك شيك) -->
+        <!-- Milkshakes -->
         <section id="milkshakes" class="mt-32">
             <div class="section-head"><h2>مشروبات مثلّجة</h2><p>ميلك شيك كريمي ومنعش</p></div>
             <div class="grid products">
@@ -65,7 +62,7 @@
             </div>
         </section>
 
-        <!-- مشروبات صودا -->
+        <!-- Soda -->
         <section id="soda" class="mt-32">
             <div class="section-head"><h2>مشروبات صودا</h2><p>منعشة ومثلجة</p></div>
             <div class="grid products">
@@ -75,7 +72,7 @@
             </div>
         </section>
 
-        <!-- وجبات -->
+        <!-- Meals -->
         <section id="meals" class="mt-32">
             <div class="section-head"><h2>وجبات</h2><p>سريعة وشهية</p></div>
             <div class="grid products">
@@ -89,14 +86,13 @@
             </div>
         </section>
 
-        <!-- فطور -->
+        <!-- Breakfast -->
         <section id="breakfast" class="mt-32">
             <div class="section-head"><h2>فطور</h2><p>لبداية يوم نشيطة</p></div>
             <div class="grid products">
                 <article class="card"><div class="cover"><img src="assets/images/First breakfast.jpg" alt="First breakfast"><span class="price">$6.90</span></div><div class="body"><h3>First breakfast</h3><p>طبق فطور متكامل.</p><div class="row"><span class="tag">فطور</span><a class="btn" href="#">أضف</a></div></div></article>
             </div>
         </section>
-
     </main>
 
     <footer>

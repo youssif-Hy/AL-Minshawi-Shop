@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>تواصل - Al-Minshaw Shop</title>
+    <title>Al-Minshaw Shop - الرئيسية</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -11,20 +14,19 @@
     <header class="navbar">
         <div class="container wrap">
             <a class="brand" href="index.html">
-                <img src="assets/icons/ams-logo.png" alt="Al-Minshaw Shop Logo" style="width:32px;height:32px;border-radius:8px;">
+                <img src="assets/icons/ams-logo.png" alt="Logo">
                 Al-Minshaw Shop
             </a>
             <label for="menu-toggle" class="burger"><span></span></label>
             <input type="checkbox" id="menu-toggle" />
             <nav class="nav">
-                <a href="index.html">الرئيسية</a>
+                <a class="active" href="index.html">الرئيسية</a>
                 <a href="products.html">المنتجات</a>
                 <a href="about.html">من نحن</a>
-                <a class="active" href="contact.html">تواصل</a>
+                <a href="contact.html">تواصل</a>
             </nav>
         </div>
     </header>
-
 
     <main>
         <!-- HERO -->
@@ -57,49 +59,10 @@
             </div>
 
             <div class="grid products">
-                <!-- قهوة -->
-                <article class="card">
-                    <div class="cover">
-                        <img src="assets/images/Cappuccino.jpg" alt="Cappuccino"><span class="price">$3.90</span>
-                    </div>
-                    <div class="body">
-                        <h3>Cappuccino</h3><p>إسبريسو مع رغوة حليب.</p>
-                        <div class="row"><span class="tag">قهوة</span><a class="btn btn-primary" href="products.html#coffee">تصفح الفئة</a></div>
-                    </div>
-                </article>
-
-                <!-- ميلك شيك -->
-                <article class="card">
-                    <div class="cover">
-                        <img src="assets/images/Chocolate Brownie Milkshake.jpg" alt="Chocolate Brownie Milkshake"><span class="price">$5.90</span>
-                    </div>
-                    <div class="body">
-                        <h3>Chocolate Brownie Milkshake</h3><p>كريمي وثقيل بالشوكولاتة.</p>
-                        <div class="row"><span class="tag">ميلك شيك</span><a class="btn btn-primary" href="products.html#milkshakes">تصفح الفئة</a></div>
-                    </div>
-                </article>
-
-                <!-- وجبة -->
-                <article class="card">
-                    <div class="cover">
-                        <img src="assets/images/Burger, double cheese.jpg" alt="Burger, double cheese"><span class="price">$7.90</span>
-                    </div>
-                    <div class="body">
-                        <h3>Burger, double cheese</h3><p>جبنة مزدوجة وطعم مميز.</p>
-                        <div class="row"><span class="tag">وجبات</span><a class="btn btn-primary" href="products.html#meals">تصفح الفئة</a></div>
-                    </div>
-                </article>
-
-                <!-- صودا -->
-                <article class="card">
-                    <div class="cover">
-                        <img src="assets/images/Coca-Cola.jpg" alt="Coca-Cola"><span class="price">$1.80</span>
-                    </div>
-                    <div class="body">
-                        <h3>Coca-Cola</h3><p>منعشة ومثلجة.</p>
-                        <div class="row"><span class="tag">صودا</span><a class="btn btn-primary" href="products.html#soda">تصفح الفئة</a></div>
-                    </div>
-                </article>
+                <article class="card"><div class="cover"><img src="assets/images/Cappuccino.jpg" alt="Cappuccino"><span class="price">$3.90</span></div><div class="body"><h3>Cappuccino</h3><p>إسبريسو مع رغوة حليب.</p><div class="row"><span class="tag">قهوة</span><a class="btn btn-primary" href="products.html#coffee">تصفح الفئة</a></div></div></article>
+                <article class="card"><div class="cover"><img src="assets/images/Chocolate Brownie Milkshake.jpg" alt="Chocolate Brownie Milkshake"><span class="price">$5.90</span></div><div class="body"><h3>Chocolate Brownie Milkshake</h3><p>كريمي وثقيل بالشوكولاتة.</p><div class="row"><span class="tag">ميلك شيك</span><a class="btn btn-primary" href="products.html#milkshakes">تصفح الفئة</a></div></div></article>
+                <article class="card"><div class="cover"><img src="assets/images/Burger, double cheese.jpg" alt="Burger, double cheese"><span class="price">$7.90</span></div><div class="body"><h3>Burger, double cheese</h3><p>جبنة مزدوجة وطعم مميز.</p><div class="row"><span class="tag">وجبات</span><a class="btn btn-primary" href="products.html#meals">تصفح الفئة</a></div></div></article>
+                <article class="card"><div class="cover"><img src="assets/images/Coca-Cola.jpg" alt="Coca-Cola"><span class="price">$1.80</span></div><div class="body"><h3>Coca-Cola</h3><p>منعشة ومثلجة.</p><div class="row"><span class="tag">صودا</span><a class="btn btn-primary" href="products.html#soda">تصفح الفئة</a></div></div></article>
             </div>
         </section>
     </main>
@@ -107,7 +70,10 @@
     <footer>
         <div class="container footer-grid">
             <div>
-                <h4>Al-Minshaw Shop</h4>
+                <h4>
+                    <img src="assets/icons/ams-logo.png" alt="Logo" style="width:20px;height:20px;border-radius:5px;vertical-align:middle;margin-left:6px;">
+                    Al-Minshaw Shop
+                </h4>
                 <p>وجهتك للأطعمة والمشروبات المختارة بعناية.</p>
             </div>
             <div>
